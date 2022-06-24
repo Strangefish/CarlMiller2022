@@ -1,7 +1,69 @@
 * {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
-html div {
-  border: 1px pink;
+html {
+  max-width: 1920px;
+  margin: auto;
+}
+
+div, html {
+  border: 3px solid purple;
+
+}
+
+.site-name {
+ opacity: 0.75;
+}
+
+.site-name p {
+  font-weight: bolder;
+  font-size: 3rem;
+  padding: 1.5rem;
+  font-weight: 900;
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+  background-color: green;
+  width: 95%;
+}
+
+nav {
+  margin-top: 500px;
+}
+
+#dropdown {
+  display: inline;
+}
+
+/* Plays page */
+
+.main {
+  margin-top: 8rem;
+}
+
+#play-container {
+  min-height: 35rem;
+  margin: 3rem 10rem;
+  padding: 1.5rem;
+}
+
+.creatives {
+  list-style: none;
+}
+
+.plays2 {
+  background: url("resources/images/i_am_chariot_riders.jpg");
+  background-size: contain;
+  background-color: aquamarine;
+}
+
+.button {
+  border: none;
+  font-weight: bold;
+}
+
+img {
+  position: center;
 }
